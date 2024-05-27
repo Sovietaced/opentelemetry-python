@@ -27,7 +27,7 @@ classifiers = [
   "Typing :: Typed",
 ]
 dependencies = [
-  "opentelemetry-exporter-otlp-proto-grpc == 1.25.0.dev",
+  "opentelemetry-exporter-otlp-proto-grpc@git+https://github.com/Sovietaced/opentelemetry-python#egg=protobuf5-test&subdirectory=exporter/opentelemetry-exporter-otlp-proto-grpc",
   "opentelemetry-exporter-otlp-proto-http == 1.25.0.dev",
 ]
 
