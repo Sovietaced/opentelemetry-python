@@ -28,7 +28,7 @@ classifiers = [
 ]
 dependencies = [
   "opentelemetry-exporter-otlp-proto-grpc@git+https://github.com/Sovietaced/opentelemetry-python@protobuf5-test#subdirectory=exporter/opentelemetry-exporter-otlp-proto-grpc",
-  "opentelemetry-exporter-otlp-proto-http@git+https://github.com/Sovietaced/opentelemetry-python@protobuf5-test#subdirectory=exporter/opentelemetry-exporter-otlp-proto-http"",
+  "opentelemetry-exporter-otlp-proto-http@git+https://github.com/Sovietaced/opentelemetry-python@protobuf5-test#subdirectory=exporter/opentelemetry-exporter-otlp-proto-http",
 ]
 
 [project.entry-points.opentelemetry_logs_exporter]
