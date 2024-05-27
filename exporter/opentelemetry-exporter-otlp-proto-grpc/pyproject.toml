@@ -58,3 +58,6 @@ include = [
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/opentelemetry"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
