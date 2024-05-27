@@ -26,7 +26,7 @@ classifiers = [
   "Programming Language :: Python :: 3.11",
 ]
 dependencies = [
-  "opentelemetry-proto == 1.25.0.dev",
+  "opentelemetry-proto@git+https://github.com/Sovietaced/opentelemetry-python#egg=protobuf5-test&subdirectory=opentelemetry-proto",
 ]
 
 [project.urls]
