@@ -31,7 +31,7 @@ dependencies = [
   "opentelemetry-api ~= 1.15",
   "opentelemetry-proto == 1.25.0.dev",
   "opentelemetry-sdk ~= 1.25.0.dev",
-  "opentelemetry-exporter-otlp-proto-common == 1.25.0.dev",
+  "opentelemetry-exporter-otlp-proto-common@git+https://github.com/Sovietaced/opentelemetry-python#egg=protobuf5-test&subdirectory=exporter/opentelemetry-exporter-otlp-proto-common",
   "requests ~= 2.7",
 ]
 
